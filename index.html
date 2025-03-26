@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
+
 <body>
     <div class="container">
-        <h1><i class="material-icons" >notes </i> Notes</h1>
-        <button><i class="material-icons" >edit</i>Create Notes</button>
+        <h1><i class="material-icons">notes </i> Notes</h1>
+        <button><i class="material-icons">edit</i>Create Notes</button>
+        <div class="notes-container">
+            <p contenteditable="true" class="input-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path
+                        d="M3 6h18v2H3V6zm2 3h14v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9zm5 2v7h2v-7H10zm4 0v7h2v-7h-2zm-5.5-7h7l1 1H5l1-1z" />
+                </svg>
+            </p>
+        </div>
     </div>
 
 
@@ -19,4 +29,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
