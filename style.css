@@ -54,8 +54,8 @@
   outline: none;
   border-radius: 0.5rem;
 }
-* .container .notes-container svg {
-  width: 1.2rem;
+* .container .notes-container .input-box img {
+  width: 1rem;
   position: absolute;
   bottom: 1rem;
   right: 1rem;

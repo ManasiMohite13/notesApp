@@ -65,15 +65,15 @@
                 outline: none;
                 border-radius: 0.5rem;
 
+                img {
+                    width: 1rem;
+                    position: absolute;
+                    bottom: 1rem;
+                    right: 1rem;
+                    cursor: pointer;
+                }
             }
 
-            svg {
-                width: 1.2rem;
-                position: absolute;
-                bottom: 1rem;
-                right: 1rem;
-                cursor: pointer;
-            }
         }
 
 
